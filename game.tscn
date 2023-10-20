@@ -1,21 +1,21 @@
 [gd_scene load_steps=3 format=3 uid="uid://c2wluprt1cfxy"]
 
-[ext_resource type="Texture2D" path="res://menu_1.png" id="1_ati6i"]
-[ext_resource type="Texture2D" path="res://buton.png" id="2_0xnf7"]
+[ext_resource type="Texture2D" uid="uid://blmfdk22hmks1" path="res://menu_1.png" id="1_ati6i"]
+[ext_resource type="Texture2D" uid="uid://chfbxe3adpp4l" path="res://buton.png" id="2_0xnf7"]
 
 [node name="Node2D" type="Node2D"]
 
 [node name="Menu1" type="Sprite2D" parent="."]
-position = Vector2(577, 327)
-scale = Vector2(1.54194, 1.54976)
+position = Vector2(577, 341)
+scale = Vector2(1.34753, 1.26777)
 texture = ExtResource("1_ati6i")
 
 [node name="Buton" type="Sprite2D" parent="."]
-position = Vector2(567, 412)
+position = Vector2(569, 412)
 texture = ExtResource("2_0xnf7")
 
 [node name="Buton2" type="Sprite2D" parent="."]
-position = Vector2(563, 325)
+position = Vector2(567, 328)
 texture = ExtResource("2_0xnf7")
 
 [node name="Buton3" type="Sprite2D" parent="."]
